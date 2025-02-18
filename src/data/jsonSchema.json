@@ -1,0 +1,40 @@
+{
+  "title": "Заполните информацию о пользователе",
+  "type": "object",
+  "required": ["firstName", "lastName"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "ФИО"
+    },
+    "username": {
+      "type": "string",
+      "title": "Логин"
+    },
+    "email": {
+      "type": "string",
+      "title": "E-mail"
+    },
+    "telephone": {
+      "type": "string",
+      "title": "Телефон"
+    },
+    "telegram": {
+      "type": "string",
+      "title": "Telegram"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата рождения"
+    },
+    "bio": {
+      "type": "string",
+      "title": "О себе"
+    },
+    "city": {
+      "type": "string",
+      "title": "Город"
+    }
+  }
+}

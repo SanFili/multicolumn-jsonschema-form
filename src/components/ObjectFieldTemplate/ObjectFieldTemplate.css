@@ -1,0 +1,8 @@
+.layout__section_row {
+  display: flex;
+}
+
+.layout__block {
+  display: flex;
+  flex-wrap: wrap;
+}

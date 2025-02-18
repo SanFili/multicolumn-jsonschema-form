@@ -1,0 +1,58 @@
+{
+  "sections": [
+    {
+      "id": "section1",
+      "header": {
+        "title": "Основная информация",
+        "align": "center",
+        "heading_size": 4
+      },
+      "blocks": [
+        {
+          "id": "block1",
+          "fields": {
+            "name": { "width": 16 },
+            "username": { "width": 8 }
+          },
+          "columns": 2
+        },
+        {
+          "id": "block2",
+          "fields": {
+            "telegram": {},
+            "email": {},
+            "telephone": {}
+          },
+          "columns": 3
+        }
+      ],
+      "settings": {
+        "layout": "column"
+      }
+    },
+    {
+      "id": "section2",
+      "header": {
+        "title": "Общие сведения",
+        "align": "center"
+      },
+      "blocks": [
+        {
+          "id": "block3",
+          "fields": { "date": {}, "city": {} },
+          "columns": 1,
+          "width": 8
+        },
+        {
+          "id": "block4",
+          "fields": { "bio": {} },
+          "columns": 1,
+          "width": 16
+        }
+      ],
+      "settings": {
+        "layout": "row"
+      }
+    }
+  ]
+}

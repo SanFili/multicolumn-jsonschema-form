@@ -1,0 +1,11 @@
+{
+  "password": {
+    "ui:widget": "password"
+  },
+  "bio": {
+    "ui:widget": "textarea",
+    "ui:options": {
+      "rows": 5
+    }
+  }
+}
