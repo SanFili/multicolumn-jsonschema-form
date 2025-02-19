@@ -12,18 +12,11 @@
           "id": "block1",
           "fields": {
             "name": { "width": 16 },
-            "username": { "width": 8 }
-          },
-          "columns": 2
-        },
-        {
-          "id": "block2",
-          "fields": {
-            "telegram": {},
-            "email": {},
-            "telephone": {}
-          },
-          "columns": 3
+            "username": { "width": 8 },
+            "telegram": { "width": 8 },
+            "email": { "width": 8 },
+            "telephone": { "width": 8 }
+          }
         }
       ],
       "settings": {
@@ -40,13 +33,11 @@
         {
           "id": "block3",
           "fields": { "date": {}, "city": {} },
-          "columns": 1,
           "width": 8
         },
         {
           "id": "block4",
           "fields": { "bio": {} },
-          "columns": 1,
           "width": 16
         }
       ],
