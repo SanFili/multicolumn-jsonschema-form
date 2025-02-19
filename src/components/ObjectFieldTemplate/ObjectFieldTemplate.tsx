@@ -41,12 +41,12 @@ function ObjectFieldTemplate(props: any) {
                     {section.header.title}
                   </Typography.Title>
                 )}
-                <div className="layout__section">
+                <div className="layout">
                   {section.blocks.map((block: any) => {
                     return (
                       <div
                         key={`${section.id}-${block.id}`}
-                        className="layout__block"
+                        className="layout"
                         style={{
                           width: `${
                             block.width ? 100 / (24 / block.width) : 100
