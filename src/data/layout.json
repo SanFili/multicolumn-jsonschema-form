@@ -18,10 +18,7 @@
             "telephone": { "width": 8 }
           }
         }
-      ],
-      "settings": {
-        "layout": "column"
-      }
+      ]
     },
     {
       "id": "section2",
@@ -40,10 +37,7 @@
           "fields": { "bio": {} },
           "width": 16
         }
-      ],
-      "settings": {
-        "layout": "row"
-      }
+      ]
     }
   ]
 }

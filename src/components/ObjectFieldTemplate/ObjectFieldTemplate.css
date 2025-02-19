@@ -1,4 +1,4 @@
-.layout__section_row {
+.layout__section {
   display: flex;
   flex-wrap: wrap;
 }
